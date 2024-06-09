@@ -1,6 +1,4 @@
 @extends('layouts.app')
-<link rel="stylesheet" href="{{ asset('css/list-besoin.css') }}">
-
 @section('content')
 <div class="container">
     <h2 class="mt-5">Liste des besoins</h2>
@@ -10,13 +8,11 @@
             <h5>Filtrer par :</h5>
             <select class="form-select mb-2" id="categorieFilter">
                 <option value="">Toutes les catégories</option>
-                <!-- Add category options dynamically here -->
-                <option value="1">Catégorie 1</option>
-                <option value="2">Catégorie 2</option>
-                <option value="3">Catégorie 3</option>
+                <option value="Cuisine">Cuisine</option>
+                <option value="Construction">Construction</option>
+                <option value="Jardinage">Jardinage</option>
+                <!-- Add more categories here -->
             </select>
-            <!-- Add more filtering options if needed -->
-
             <!-- Clear Filter Button -->
             <button class="btn btn-outline-secondary" onclick="clearFilters()">Effacer les filtres</button>
         </div>
