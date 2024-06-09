@@ -16,8 +16,8 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
                 @auth
                     @if (auth()->user()->role == 'client')
                         <li class="nav-item">
@@ -32,8 +32,13 @@
                             <a class="nav-link" href="{{ route('besoins.index') }}">Listes de besoins</a>
                         </li>
                     @endif
-                @endauth
-                @guest
+                    <li class="nav-item">
+                        <form action="{{ route('logout') }}" method="POST" class="form-inline">
+                            @csrf
+                            <button type="submit" class="btn btn-link text-dark">Deconnexion</button>
+                        </form>
+                    </li>
+                @else
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('registerForm-client') }}">Client</a>
                     </li>
@@ -42,14 +47,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('loginForm') }}">Connexion</a>
-                    </li>
-                @endguest
-                @auth
-                    <li class="nav-item">
-                        <form action="{{ route('logout') }}" method="POST" class="form-inline">
-                            @csrf
-                            <button type="submit" class="btn ">Deconnexion</button>
-                        </form>
                     </li>
                 @endauth
             </ul>
