@@ -85,7 +85,5 @@
 5. **Create a Pull Request**.
 
 ## Creators
-- Hatim Ilyas ![GitHub followers]([https://img.shields.io/github/followers/HatimIlyas04?label=Follow&style=social](https://github.com/hatimIlyas04))
-- Ahmed Tiguini ![GitHub followers]([https://img.shields.io/github/followers/AhmedTiguini?label=Follow&style=social](https://github.com/redwood0riginal))
-
-
+- Hatim Ilyas [![GitHub followers](https://img.shields.io/github/followers/HatimIlyas04?label=Follow&style=social)](https://github.com/hatimIlyas04)
+- Ahmed Tiguini [![GitHub followers](https://img.shields.io/github/followers/AhmedTiguini?label=Follow&style=social)](https://github.com/redwood0riginal)
