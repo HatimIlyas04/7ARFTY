@@ -6,7 +6,7 @@
 
 7rafti is an application designed to connect young Moroccan craftsmen with clients who need their services. This project won the 5th prize in a hackathon.
 
-![7rafti](https://via.placeholder.com/800x400.png?text=7rafti+App+Screenshot)
+![7rafti](hackathon.jpg)
 
 ## Table of Contents
 - [Features](#features)
@@ -17,11 +17,11 @@
 - [License](#license)
 
 ## Features
-- **User Registration & Authentication** ![Registration](https://img.shields.io/badge/feature-user--registration-brightgreen): Secure sign-up and login for both craftsmen and clients.
-- **Profile Management** ![Profile](https://img.shields.io/badge/feature-profile--management-brightgreen): Users can manage their profiles, showcasing their skills and experience.
-- **Job Posting & Bidding** ![Job Posting](https://img.shields.io/badge/feature-job--posting-brightgreen): Clients can post jobs, and craftsmen can bid on them.
-- **Messaging System** ![Messaging](https://img.shields.io/badge/feature-messaging-brightgreen): In-app messaging to facilitate communication between clients and craftsmen.
-- **Rating & Review System** ![Rating](https://img.shields.io/badge/feature-rating--review-brightgreen): Clients can rate and review craftsmen based on their work.
+- 🔐 **User Registration & Authentication** ![Registration](https://img.shields.io/badge/feature-user--registration-brightgreen): Secure sign-up and login for both craftsmen and clients.
+- 🧑‍🎨 **Profile Management** ![Profile](https://img.shields.io/badge/feature-profile--management-brightgreen): Users can manage their profiles, showcasing their skills and experience.
+- 🛠️ **Job Posting & Bidding** ![Job Posting](https://img.shields.io/badge/feature-job--posting-brightgreen): Clients can post jobs, and craftsmen can bid on them.
+- 💬 **Messaging System** ![Messaging](https://img.shields.io/badge/feature-messaging-brightgreen): In-app messaging to facilitate communication between clients and craftsmen.
+- ⭐ **Rating & Review System** ![Rating](https://img.shields.io/badge/feature-rating--review-brightgreen): Clients can rate and review craftsmen based on their work.
 
 ## Installation
 
