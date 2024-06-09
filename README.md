@@ -85,8 +85,7 @@
 5. **Create a Pull Request**.
 
 ## Creators
-- Hatim Ilyas ![GitHub followers](https://img.shields.io/github/followers/HatimIlyas04?label=Follow&style=social)
-- Ahmed Tiguini ![GitHub followers](https://img.shields.io/github/followers/AhmedTiguini?label=Follow&style=social)
+- Hatim Ilyas ![GitHub followers]([https://img.shields.io/github/followers/HatimIlyas04?label=Follow&style=social](https://github.com/hatimIlyas04))
+- Ahmed Tiguini ![GitHub followers]([https://img.shields.io/github/followers/AhmedTiguini?label=Follow&style=social](https://github.com/redwood0riginal))
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
