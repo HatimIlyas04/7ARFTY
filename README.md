@@ -4,9 +4,7 @@
 ![PHP](https://img.shields.io/badge/php-%5E7.3-blue)
 ![Hackathon](https://img.shields.io/badge/Hackathon-5th_Place-green)
 
-7rafti is an application designed to connect young Moroccan craftsmen with clients who need their services. This project won the 5th prize in a hackathon.
 
-![7rafti](/public/images/hackathon.jpg)
 
 ## Table of Contents
 - [Features](#features)
